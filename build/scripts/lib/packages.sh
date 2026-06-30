@@ -10,7 +10,8 @@ get_base_packages() {
                 " procps vim-tiny libbinutils openssh-server locales xfsprogs" \
                 " fortune-mod ncurses-bin rsync" \
                 " pipewire-audio pipewire-bin wireplumber" \
-                " grub-common grub-efi-amd64-bin grub-efi-ia32-bin grub-pc-bin"
+                " grub-common grub-efi-amd64-bin grub-efi-ia32-bin grub-pc-bin" \
+                " udisks2 nano"
             ;;
         arm64)
             printf '%s' \
